@@ -33,11 +33,11 @@ Many IDE support projects management with cmake, such as visual studio and CLion
 
 Download this project, and open the folder with CLion. If there is no "Open this folder with CLion", just start CLion and click "Open or Import", then select the directory where you save the project. After clicking "Ok", the project is open in CLion. In general, CLion will generate Makefile in cmake-build-debug automatically, and you can find all build target after clicking "Select Run/Debug Configuration" in toolbar, as is shown as the following figure.
 
-![targets](images/targets.png)
+![targets](https://github.com/w-jin/leetcode/blob/master/images/targets.png)
 
 Select a target and run, CLion will build and run it. If you want to add a new c++ source file, just add it and reload cmake cache, as is shown as the following figure.
 
-![new_file](images/new_file.png)
+![new_file](https://github.com/w-jin/leetcode/blob/master/images/new_file.png)
 
 ## Headers
 
@@ -45,7 +45,7 @@ In some questions, we must define linked list and binary tree to run Solution co
 
 There is an insteresting function in "include/tree.hpp" -- print a binary tree. The function "PrintBinaryTree" will print a tree as natural as possible. For example, a binary tree is shown as the following figure.
 
-![binarytree](images/binarytree.png)
+![binarytree](https://github.com/w-jin/leetcode/blob/master/images/binarytree.png)
 
 Use these codes to create, display and destory it:
 
@@ -57,7 +57,7 @@ DestoryTree(root);
 
 the "PrintBinaryTree" will print:
 
-![printbinarytree](images/printbinarytree.png)
+![printbinarytree](https://github.com/w-jin/leetcode/blob/master/images/printbinarytree.png)
 
 The function will help debug the solution related to binary tree.
 
