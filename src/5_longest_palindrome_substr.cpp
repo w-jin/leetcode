@@ -75,23 +75,13 @@ public:
                 max_len_i = i;
         }
 
-        /*
-        std::string result;
-        for (int i = max_len_i - RL[max_len_i]; i <= max_len_i + RL[max_len_i]; ++i)
-            if (str[i] != '\0')
-                result.push_back(str[i]);
-        return result;
-        */
-
-        //与上面那个几乎没有性能差距
         int start = (max_len_i - RL[max_len_i]) / 2;
         int end = (max_len_i + RL[max_len_i] - 1) / 2;
         return std::string(s.begin() + start, s.begin() + end + 1);
     }
 };
 
-int main()
-{
+int main() {
     //bab
     std::string str = "babad";
     Solution1 solution;
